@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/v/indian-date-utils-suratwala)
 ![npm downloads](https://img.shields.io/npm/dt/indian-date-utils-suratwala)
 ![license](https://img.shields.io/npm/l/indian-date-utils-suratwala)
-
+ 
 A lightweight and simple utility to fetch **Indian public holidays** and manipulate **Indian calendar dates** easily.
 
 ---
