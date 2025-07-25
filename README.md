@@ -6,7 +6,7 @@
  
 A lightweight and simple utility to fetch **Indian public holidays** and manipulate **Indian calendar dates** easily.
 
----
+----
 
 🔗 View on NPM: [https://www.npmjs.com/package/indian-date-utils-suratwala](https://www.npmjs.com/package/indian-date-utils-suratwala)
 
