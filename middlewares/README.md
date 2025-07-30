@@ -9,21 +9,8 @@ This is your one-stop playground for learning and demoing modern Express backend
 
 > ✨ Made with 💻 by **Vraj Suratwala**
 
----
 
-## 🧾 Table of Contents
-
-- [📂 Project Structure](#-project-structure)  
-- [🔧 Setup Instructions](#-setup-instructions)  
-- [🚦 How to Run Each File](#-how-to-run-each-file)  
-- [📊 API Routes Overview](#-api-routes-overview)  
-- [🧠 Concepts Covered](#-concepts-covered)  
-- [📬 Contact](#-contact)  
-- [🪄 Final Words](#-final-words)
-
----
-
-## 📂 Project Structure
+## 📂 Structure
 
 ```bash
 .
