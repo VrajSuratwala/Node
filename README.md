@@ -1,4 +1,4 @@
-## HEAD
+
 # 🇮🇳 indian-date-utils-suratwala
 
 ![npm](https://img.shields.io/npm/v/indian-date-utils-suratwala)
