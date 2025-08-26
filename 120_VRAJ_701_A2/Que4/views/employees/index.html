@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employees</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Include your header here -->
+
+<div class="toolbar">
+  <a class="btn" href="/employees/new">+ New Employee</a>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>EmpID</th><th>Name</th><th>Email</th><th>Role</th>
+      <th>Base</th><th>HRA</th><th>DA</th><th>Deductions</th><th>Gross</th><th>Net</th><th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Replace below rows with actual data or dynamically with JS -->
+    <tr>
+      <td>12345</td>
+      <td>John Doe</td>
+      <td>john@example.com</td>
+      <td>employee</td>
+      <td>50000</td>
+      <td>5000</td>
+      <td>2500</td>
+      <td>1000</td>
+      <td>57500</td>
+      <td>56500</td>
+      <td>
+        <a class="btn small" href="/employees/60dbf6fc8e8b7c4b2c1b0b6d/edit">Edit</a>
+        <form action="/employees/60dbf6fc8e8b7c4b2c1b0b6d/delete" method="post" style="display:inline;">
+          <button class="btn danger small" type="submit">Delete</button>
+        </form>
+      </td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
+
+<!-- Include your footer here -->
+
+</body>
+</html>

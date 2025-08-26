@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Employee</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Include your header here -->
+
+  <section class="card">
+    <h2>Create Employee</h2>
+    <!-- Static error placeholder, can be shown via JS -->
+    <p id="error" class="error" style="display:none;"></p>
+
+    <form method="post" action="/employees" class="form">
+      <label for="name">Name</label>
+      <input id="name" name="name" required value="" />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required value="" />
+
+      <label for="role">Role</label>
+      <select id="role" name="role">
+        <option value="employee">Employee</option>
+        <option value="admin">Admin</option>
+      </select>
+
+      <label for="baseSalary">Base Salary</label>
+      <input id="baseSalary" name="baseSalary" type="number" min="0" required value="" />
+
+      <label for="hraPercent">HRA %</label>
+      <input id="hraPercent" name="hraPercent" type="number" min="0" value="20" />
+
+      <label for="daPercent">DA %</label>
+      <input id="daPercent" name="daPercent" type="number" min="0" value="10" />
+
+      <label for="deductions">Deductions</label>
+      <input id="deductions" name="deductions" type="number" min="0" value="0" />
+
+      <button class="btn" type="submit">Create</button>
+    </form>
+  </section>
+
+  <!-- Include your footer here -->
+
+</body>
+</html>

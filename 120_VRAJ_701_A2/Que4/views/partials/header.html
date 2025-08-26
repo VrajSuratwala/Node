@@ -1,0 +1,51 @@
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="/">EmployeeSite</a>
+    <nav class="nav">
+      <a href="home.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="leave.html">Apply Leave</a>
+      <a href="#" id="logoutBtn">Logout</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+  }
+  .site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  .nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+  }
+  .nav a:hover {
+    color: #1abc9c;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("logoutBtn")?.addEventListener("click", (e) => {
+      e.preventDefault();
+      sessionStorage.removeItem("authToken"); // clear token
+      window.location.href = "login.html";  
+    });
+  });
+</script>

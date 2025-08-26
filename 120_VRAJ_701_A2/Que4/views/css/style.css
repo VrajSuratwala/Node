@@ -1,0 +1,45 @@
+/* General container */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Header styling */
+.site-header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #ecf0f1;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #1abc9c;
+}
+
+/* Footer styling */
+.site-footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
