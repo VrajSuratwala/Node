@@ -1,1 +1,0 @@
-console.log("Hello from hello_1.js");
